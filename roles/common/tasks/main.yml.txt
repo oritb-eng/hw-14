@@ -1,0 +1,9 @@
+ - name: Running Task1
+     debug:
+      msg: "First task!"
+ - name: install vim
+     apt:
+       name:
+          - zip
+          - vim
+       state: present

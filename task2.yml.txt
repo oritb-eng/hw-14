@@ -1,0 +1,7 @@
+- hosts: servers
+  roles:
+   - common
+  tasks:
+   - name: print msg
+     debug:
+       msg: "roles test succeeded"
